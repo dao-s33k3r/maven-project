@@ -18,4 +18,5 @@ Hello, UNIVERSE!<br>
         if (ip == null || ip.length() == 0 || "unknown".equalsIgnoreCase(ip)) {  
             ip = request.getRemoteAddr();  
         }
+        out.print(ip);
 %>
